@@ -29,12 +29,12 @@ const CardItemPizza: React.FC<CardItemPizzaProps> = ({ pizza }) => {
           ))}
         </ul>
         <hr />
-        <p>$ {formatValue(pizza.price)}</p>
-        <div>
-          <button onClick={() => navigate("/pizza/" + pizza.id)}>
+        <p className="price">$ {formatValue(pizza.price)}</p>
+        <div className="buttons">
+          <button className="btn ver_mas" onClick={() => navigate("/pizza/" + pizza.id)}>
             Ver más 👀
           </button>
-          <button onClick={() => increaseCartQuantity(pizza.id)}>
+          <button className="btn add" onClick={() => increaseCartQuantity(pizza.id)}>
             Añadir 🛒
           </button>
         </div>
