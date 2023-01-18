@@ -12,8 +12,8 @@ const Carrito: React.FC = () => {
                 {cartItems.map((item) => (
                     <CartItem key={item.id} {...item} />
                 ))}
-                <p className="detail_total">Total: {totalCart(cartItems)}</p>
-                {Number(totalCart(cartItems)) > 0 ?  <button onClick={() => {
+                <p className="detail_total">Total: $ {totalCart(cartItems)}</p>
+                {Number(totalCart(cartItems)) > 0 ?  <button className="pay" onClick={() => {
                     if (
                         confirm(
                             `¿Estás seguro de llevar la compra por $${totalCart(cartItems

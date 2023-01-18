@@ -24,11 +24,11 @@ const CartItem: React.FC<CartItemProps> = ({ id, quantity }) => {
                 </div>
                 <div className="details_actions">
                     <div className="detail_item_total">${formatValue((item.price * quantity))}</div>
-                    <button onClick={() => increaseCartQuantity(item.id)}>
+                    <button className="btn mas" onClick={() => increaseCartQuantity(item.id)}>
                         +
                     </button>
                     {quantity}
-                    <button onClick={() => decreaseCartQuantity(item.id)}>
+                    <button className="btn add" onClick={() => decreaseCartQuantity(item.id)}>
                         -
                     </button>
                 </div>

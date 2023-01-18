@@ -8,10 +8,10 @@
     "price": 5950
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La deliciosa pizza española es entre las clásicas, un éxito seguro en cada ocasión. Con una buena base crujiente, sabroso Mozzarella y el mejor Chorizo, para otorgar un especial y característico sabor. Presentamos la auténtica pizza fresca, ideal para ser consumida en cualquier momento del día.",
     "id": "P002",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fcheese-164872_640_com.jpg?alt=media&token=18b2b821-4d0d-43f2-a1c6-8c57bc388fab",
-    "ingredients": ["mozzarella", "tomates", "jamón", "choricillo"],
+    "ingredients": ["mozzarella", "tomates", "jamón", "chorizo"],
     "name": "española",
     "price": 7250
   },
@@ -24,7 +24,7 @@
     "price": 5990
   },
   {
-    "desc": "La pizza es una preparación culinaria que consiste en un pan plano, habitualmente de forma circular, elaborado con harina de trigo, levadura, agua y sal (a veces aceite de oliva) que comúnmente se cubre con salsa de tomate, queso y otros muchos ingredientes, y que se hornea a alta temperatura, tradicionalmente en un horno de leña.",
+    "desc": "La pizza cuatro estaciones, en italiano, pizza quattro stagioni, es una variedad italiana de pizza que se prepara en cuatro secciones con diversos ingredientes, y cada sección representa una estación del año.",
     "id": "P004",
     "img": "https://firebasestorage.googleapis.com/v0/b/apis-varias-mias.appspot.com/o/pizzeria%2Fpizza-2000595_640_c.jpg?alt=media&token=61325b6e-a1e0-441e-b3b5-7335ba13e8be",
     "ingredients": ["mozzarella", "salame", "aceitunas", "champiñones"],

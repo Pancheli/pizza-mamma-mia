@@ -25,7 +25,7 @@ const Pizza: React.FC = () => {
                 <h3 className="detail_body-title">{pizza.name}</h3>
                 <div className="detail_body-text">
                     <p>{pizza.desc}</p>
-                    <p>Ingredientes:</p>
+                    <p className="ingredients">Ingredientes:</p>
                     <ul>
                         {pizza?.ingredients.map((ingredient, index) => (
                             <li key={index.toString()}>🍕 {ingredient}</li>
@@ -33,8 +33,9 @@ const Pizza: React.FC = () => {
                     </ul>
                 </div>
                 <div className="detail_body-footer">
-                    <p>${formatValue(pizza.price)}</p>
+                    <p className="price">${formatValue(pizza.price)}</p>
                     <button
+                        className="btn add"
                         onClick={() => increaseCartQuantity(pizza.id)}>
                             Añadir 🛒
                     </button>
